@@ -6,7 +6,7 @@ import "./index.css"   // ← ESSA LINHA É CRÍTICA
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/poswebreactdeploy">
       <App />
     </BrowserRouter>
   </React.StrictMode>
